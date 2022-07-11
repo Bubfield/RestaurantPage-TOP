@@ -1,0 +1,170 @@
+body {
+  background: url("https://img.freepik.com/premium-vector/beer-foam-bubbles-background-seamless-realistic-craft-beer-with-flowing-foam-bubbles_186921-15.jpg?w=996");
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+}
+
+.home-div {
+  background-color: #bf5400;
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.review {
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.headline-div {
+  background-color: #ffc107;
+  margin: 0 auto;
+  height: 250px;
+  padding-top: 20px;
+  margin-top: 15px;
+}
+
+.headline-div h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.review-div {
+  background-color: #b5aeae;
+  height: 250px;
+  padding-top: 5px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+.hours-div {
+  background-color: seagreen;
+  height: 250px;
+  padding-top: 5px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.location-div {
+  background-color: rosybrown;
+  height: 250px;
+  padding-top: 5px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 25px;
+}
+
+nav {
+  margin: 0 auto;
+  position: relative;
+  width: 380px;
+}
+
+.tab-list {
+  display: flex;
+  list-style: none;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.tab-list li {
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  flex: 1;
+  margin-left: 20px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+header {
+  margin-bottom: 40px;
+  height: 50px;
+  background-color: brown;
+  padding-top: 5px;
+}
+
+.headline-outer {
+  background-color: rgb(247, 247, 247);
+  padding: 20px;
+  margin-bottom: 100px;
+  clip-path: circle(65%);
+  height: 300px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.beer-handle {
+  height: 250px;
+  width: 150px;
+  background-color: rgb(247, 247, 247);
+  padding: 0;
+  margin: 0;
+  top: 100px;
+  left: 475px;
+  position: absolute;
+  border-radius: 60px;
+}
+
+.beer-handle-inner {
+  height: 210px;
+  width: 90px;
+  background-color: #bf5400;
+  padding: 0;
+  margin: 0;
+  top: 120px;
+  left: 505px;
+  position: absolute;
+  border-radius: 30px;
+}
+
+.review-outer {
+  background-color: #607d8b;
+  padding: 20px;
+  margin-bottom: 100px;
+  clip-path: circle(65%);
+  height: 300px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.hours-outer {
+  background-color: rgb(16, 59, 59);
+  padding: 20px;
+  margin-bottom: 100px;
+  clip-path: circle(65%);
+  height: 300px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.location-outer {
+  background-color: #441313;
+  padding: 20px;
+  margin-bottom: 100px;
+  clip-path: circle(65%);
+  height: 300px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+@media all and (max-width: 715px) {
+  .beer-handle {
+    width: 0;
+    height: 0;
+  }
+}
